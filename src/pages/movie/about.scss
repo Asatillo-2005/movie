@@ -1,0 +1,123 @@
+.section-movie {
+    background: linear-gradient(180deg, #3E3E3E 0%, #070707 100%);
+}
+
+.about-box {
+    display: flex;
+    padding-top: 54px;
+    padding-bottom: 555px;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    // align-items: center;
+    justify-content: start;
+    padding-top: 69px;
+    gap: 38px;
+}
+
+.content {
+    width: 297px;
+    display: flex;
+    flex-direction: column;
+    gap: 33.31px;
+}
+
+.name-year-time-status {
+    width: 296px;
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+}
+
+.name-year {
+    display: flex;
+    justify-content: space-between;
+    gap: 133px;
+
+    .content-name {
+        color: #FFF;
+        font-family: Electrolize;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .content-year {
+        color: white;
+        font-family: Imprima;
+        font-size: 17.589px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: 0.5s linear;
+
+        &:hover {
+            color: #CF0;
+        }
+    }
+}
+
+.quality-time-status {
+    display: flex;
+    justify-content: space-between;
+    gap: 157px;
+
+    .content-qualty {
+        width: 26px;
+        height: 18px;
+        display: inline-block;
+        border: 1px solid #FFF;
+        background: rgba(217, 217, 217, 0.00);
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 1px;
+        color: #FFF;
+        font-family: Imprima;
+        font-size: 12.792px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    
+    }
+
+.content-img {
+    width: 294px;
+    height: 391.69px;
+}
+
+.status111 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 29.36px;
+    .content-time-status {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+        color: #FFF;
+        font-family: Imprima;
+        font-size: 10.393px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+    }
+    .content-status {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+        color:white;
+        font-family: Imprima;
+        font-size: 10.393px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
