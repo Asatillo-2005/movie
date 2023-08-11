@@ -66,7 +66,7 @@ function Movie_inner(a) {
                                 if(evt.target.matches(".modal")){
                                     elModal.current.classList.remove("modal-open")
                                     console.log("true");
-                                    elInner.current.style.display = "none"
+                                    // elInner.current.style.display = "none"
                                 }
                                 else{
                                     console.log("false");

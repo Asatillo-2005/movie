@@ -38,7 +38,6 @@ function About() {
                                 return (
                                     <div className="content">
                                         <Link to={`/movie_inner/${item.id}`} a={index} ><img className="content-img" src={item.img} alt="error" /> </Link>
-
                                         <div className="name-year-time-status">
                                             <div className="name-year">
                                                 <p className="content-name">{item.name.slice(0, 15)}</p>
